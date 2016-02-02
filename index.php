@@ -1,8 +1,3 @@
-<?php
-
-$name = "Neurox Gómez";
-
-?>
 <!DOCTYPE html>
 <html>
 <meta lang="es">
@@ -13,7 +8,7 @@ $name = "Neurox Gómez";
 <body>
     <div class="container">
         <div class="header">
-	        <h1 class="titulo">Hola <?php echo $name; ?><br>
+	        <h1 class="titulo"><?php echo "Hello ".(isset($_GET['name']) ? $_GET['name'] : "World"); ?><br>
 	            Bienvenido a Vagrant VM<br>
 	            <span class="subtitulo">Mi primer sitio</span>
 	        </h1>
