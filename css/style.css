@@ -1,0 +1,17 @@
+body {
+	font-family: sans-serif;
+}
+
+.container {
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.titulo {
+	text-align: center;
+}
+
+.subtitulo {
+	font-size: 24px;
+}
